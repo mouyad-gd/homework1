@@ -1,0 +1,135 @@
+<!-- Step one: made extra copy of the Homework folder to prevent loosing the original folder -->
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8" />
+    <!-- Note by Mouyad: Added the type: text/css to the link below -->
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <!-- Note by Mouyad: changed the tite from "website" to "Welcome to Horiseon!" -->
+    <title>Welcome to Horiseon!</title>
+
+
+</head>
+
+<body>
+    <!-- Note by Mouyad: step two: Replaed the none-semantic element <div> and with semantic element <header>. Make sure to replace the close tag! </>-->
+    <!-- Note by Mouyad: Added class="header", then go to Css file and change correct the class name -->
+    <header class="header">
+        <!-- Note By Mouyad: <h1>Hori<span class="seo">seo</span>n</h1 : this was changed by bellow> -->
+
+
+        <h1> <span id="seo"> Horiseon</span></h1>
+
+        <!-- Step three: replaced non-semantic <div> with semantic element <nav> and I did some google research on <nav> -->
+        <nav>
+            <ul>
+                <li>
+                    <a href="#search-engine-optimization">Search Engine Optimization</a>
+                </li>
+                <li>
+                    <a href="#online-reputation-management">Online Reputation Management</a>
+                </li>
+                <li>
+                    <a href="#social-media-marketing">Social Media Marketing</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- header end -->
+
+
+
+
+
+<!-- Note by Mouyad: this is background picture -->
+<!-- Note by Mouyad: Added title="picture discription" instead alt= -->
+    <div class="hero" title="picture of digital marketing meeting"></div>
+    
+    
+    
+    
+    <main class="content">
+        <!-- Not by Mouyad: id was missing -->
+        <!-- Not by Mouyad changed div to section -->
+        <section id="search-engine-optimization" class="search-engine-optimization">
+            <!-- Not by Mouyad: added the alt="pic description", then tested by removing the scr -->
+            <img src="./assets/images/search-engine-optimization.jpg" class="float-left" alt="picture of a laptop, notepad and cup of coffee"/>
+            <h2>Search Engine Optimization</h2>
+            <!-- Note by Mouyad: added text-align:Justify to class p to make the paragraph look cleaner -->
+            <p>
+                The dominance of mobile internet use means that users are searching for the right business as they
+                travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase
+                your visibility and find the right customers for your business.
+            </p>
+        </section>
+
+
+                <!-- Not by Mouyad changed div to section -->
+        <section id="online-reputation-management" class="online-reputation-management">
+            <!-- Not by Mouyad: added the alt="pic description", then tested by removing the scr -->
+            <img src="./assets/images/online-reputation-management.jpg" class="float-right" alt="picture of a laptop with graphic" />
+            <h2>Online Reputation Management</h2>
+            <p>
+                The web is full of opinions, and some of these can be negative. Social media allows anyone with an
+                internet connection to say whatever they want about your business. Online Reputation Management gives
+                you the control over what potential customers see when they search for your business.
+            </p>
+        </section>
+
+
+        <section id="social-media-marketing" class="social-media-marketing">
+            <!-- Not by Mouyad: added the alt="pic description", then tested by removing the scr -->
+            <img src="./assets/images/social-media-marketing.jpg" class="float-left" alt="picture of group of people utilizing social media" />
+            <h2>Social Media Marketing</h2>
+            <p>
+                Social media continues to have a sizable influence on buying habits. Social media marketing helps you
+                determine which platforms are suited to your brand, using analytics to find the right markets and
+                increase your lead generation.
+            </p>
+        </section>
+    </main>
+    
+    
+    
+    <aside class="benefits">
+        <div class="benefit-lead">
+            <h3>Lead Generation</h3>
+            <!-- Not by Mouyad: added the alt="pic description", then tested by removing the scr -->
+            <img src="./assets/images/lead-generation.png" alt="Lead Generation logo"/>
+            
+            <p>
+                Inbound strategies for lead generation require less work for your business, bringing customers directly
+                to your website.
+            </p>
+        </div>
+        <div class="benefit-brand">
+            <h3>Brand Awareness</h3>
+            <!-- Not by Mouyad: added the alt="pic description", then tested by removing the scr -->
+            <img src="./assets/images/brand-awareness.png" alt="Brand Awareness"/>
+            <p>
+                Users find your business through paid and organic searches, increasing the search ranking and visibility
+                for your business.
+            </p>
+        </div>
+        <div class="benefit-cost">
+            <h3>Cost Management</h3>
+            <!-- Note by Mouyad: img is self-closed tag! below was corrected -->
+            <!-- Not by Mouyad: added the alt="pic description", then tested by removing the scr -->
+            <img src="./assets/images/cost-management.png" alt="Cost Management logo"/>
+            <p>
+                As the search ranking for your business increases, your advertising costs decrease, and you no longer
+                need to advertise your page.
+            </p>
+        </div>
+    </aside>
+    <aside class="footer">
+        <h2>Made with ❤️️ by Horiseon</h2>
+        <!-- Note by Mouyad: took out <p> -->
+        &copy; 2019 Horiseon Social Solution Services, Inc.
+        
+    </aside>
+</body>
+
+</html>
